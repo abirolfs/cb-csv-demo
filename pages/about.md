@@ -11,7 +11,7 @@ position: bottom
 # major heading to display over featured image
 heading: About the Collection
 # paragraph text below heading in featured image
-sub-heading: 
+sub-heading:
 # additional padding added to the feature to increase size. Give value in em or px, e.g. "5em".
 padding: 6em
 # Edit the markdown on in this file to describe your collection
@@ -24,8 +24,8 @@ This demo collection features items from the University of Idaho Library's [Digi
 
 CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
+-   a CSV of collection metadata
+-   a folder of images, PDFs, audio, or video files
 
 Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
 The resulting static site can be hosted on any basic web server.
@@ -33,7 +33,18 @@ The resulting static site can be hosted on any basic web server.
 [CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
 See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
 
-{% include feature/image.html objectid="demo_001" width="75" %} 
+<!-- {% include feature/image.html objectid="demo_001" width="75" %} -->
+
+## Markdown test
+
+-   Markdown list
+    -   Subitem
+-   item 2
+
+### Image:
+
+{% include feature/image.html objectid="psychiana030" width="50" %}
 
 <!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+
+{% include cb/about_the_about.md %}
