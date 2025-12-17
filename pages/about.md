@@ -18,6 +18,10 @@ padding: 6em
 # Look in _includes/feature for options to easily add features to the page
 ---
 
+### 3D Model Test:
+
+{% include item/o3dv-embed.html model="/objects/venus-textured.obj" %}
+
 ## About CollectionBuilder CSV
 
 This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
@@ -44,6 +48,10 @@ See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed informa
 ### Image:
 
 {% include feature/image.html objectid="psychiana030" width="50" %}
+
+
+
+
 
 <!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
 
