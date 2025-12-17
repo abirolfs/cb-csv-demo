@@ -20,7 +20,7 @@ padding: 6em
 
 ### 3D Model Test:
 
-{% include item/o3dv-embed.html model="/objects/venus-textured.obj" %}
+{% include item/o3dv-embed.html model="/objects/cube.glb" %}
 
 ## About CollectionBuilder CSV
 
@@ -48,10 +48,6 @@ See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed informa
 ### Image:
 
 {% include feature/image.html objectid="psychiana030" width="50" %}
-
-
-
-
 
 <!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
 
